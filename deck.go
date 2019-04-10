@@ -16,7 +16,7 @@ type deck []string // custom type
 func newDeck() deck { // Create and return list of cards
 	cards := deck{}
 
-	cardSuits := []string{"Spades", "Dimonds", "Hearts", "Clubs"} // Slice of card suits
+	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"} // Slice of card suits
 	cardValues := []string{"Ace", "King", "Queen", "Jack", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"}
 
 	// Two four loops to itterate between suites and values
