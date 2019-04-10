@@ -14,3 +14,9 @@
     
     1. type deck []string
 
+## File Structure
+
+GO > src > Project files
+
+
+
