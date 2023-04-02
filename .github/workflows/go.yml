@@ -19,7 +19,7 @@ jobs:
       run: |
         sudo apt-get install golang                           
         go build .
-        go mod init 
+        go mod init main.go
         go test -v deck_test.go    
 
     - name: Run Security Scan
