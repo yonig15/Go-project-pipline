@@ -16,8 +16,7 @@ jobs:
         go-version: 1.17
 
     - name: Build and test
-      run: |
-        sudo apt-get install golang                           
+      run: |                         
         go build .
         go mod init 
         go test -v deck_test.go    
