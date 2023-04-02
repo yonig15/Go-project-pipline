@@ -17,6 +17,7 @@ jobs:
 
     - name: Build and test
       run: |
+        sudo apt-get install golang                           
         go build .
         go test -v deck_test.go    
 
