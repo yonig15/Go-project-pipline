@@ -1,8 +1,6 @@
-import "testing"
-
-
 package main
 
+import "testing"
 
 func main() { // Has to be first matching package main
 	cards := newDeck()
