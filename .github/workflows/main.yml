@@ -23,7 +23,6 @@ jobs:
     - name: Build and test
       run: |                         
         go build .
-        go mod init 
         go test -v deck_test.go    
 
     - name: Run Security Scan
