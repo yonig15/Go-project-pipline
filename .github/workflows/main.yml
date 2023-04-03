@@ -26,4 +26,6 @@ jobs:
         go test -v deck_test.go    
 
     - name: Run Security Scan
-      run: go get github.com/securego/gosec/cmd/gosec && gosec ./...
+      run: |
+        go get github.com/securego/gosec/v2/cmd/gosec
+        gosec ./...
